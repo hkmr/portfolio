@@ -1,0 +1,121 @@
+{
+    "author": "Harsh Kumar",
+    "about": "Hi there 👋, I'm\n🔭 Intuitive problem-solver \n🌱 Frontend Developer with ReactJs \n🤖 Backend with NodeJs and Express Framework \n💀 MongoDB || API's || Git and Git\n 👯 I’m looking to collaborate on tech Startup",
+    "skills": [
+        {
+            "name" : "HTML",
+            "score": 60
+        },
+        {
+            "name" : "CSS",
+            "score": 60
+        },
+        {
+            "name" : "Javascript",
+            "score": 60
+        },{
+            "name" : "Flutter",
+            "score": 80
+        },{
+            "name" : "Java",
+            "score": 70
+        },{
+            "name": "Node.js",
+            "score": 30
+        },{
+            "name": "Git",
+            "score": 60
+        }
+    ],
+    "projects" : [
+        {
+            "name": "Wallmob",
+            "description": "Wallmob provides amazing HD wallpapers for mobile. Each wallpaper is a real masterpiece selected by Android Station Team - just tilt your device to see more!",
+            "hashtags": ["flutter", "firebase", "wallpaper"],
+            "location": "Playstore",
+            "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/projects%2Fapp_icon.png?alt=media&token=54ec2aee-6715-4b6d-a267-d018d477b93d",
+            "link": "https://play.google.com/store/apps/details?id=org.infotechcenter.wallmob"
+        },
+        {
+            "name": "Newsly",
+            "description": "It delivers the latest news updates and breaking stories from all over the world in multiple languages.",
+            "hashtags": ["flutter", "firebase", "firebase-auth"],
+            "location": "Playstore",
+            "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/projects%2FNewsly%20-black.png?alt=media&token=b50ba724-9fbe-4ea3-b2ba-18c781257cd7",
+            "link": "https://play.google.com/store/apps/details?id=org.infotechcenter.newsly"
+        },
+        {
+            "name": "Movie Bucket",
+            "description": "This project is for movies download from the torrent and getting detail about the movies.",
+            "hashtags": ["react-js", "firebase","torrent"],
+            "location": "Github",
+            "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/projects%2Fmoviebucket.png?alt=media&token=1152d126-a308-45e1-8b8d-01ed7e6bd9c6",
+            "link": "https://moviebuckets-e5d25.firebaseapp.com/"
+        },
+        {
+            "name": "TenderFarm Dashboard",
+            "description": "A dashboard UI for the Tenders management designed in Bootstrap.",
+            "hashtags": ["bootstrap", "react-js","ui-ux"],
+            "location": "Github",
+            "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/projects%2Ftenderfarm.webp?alt=media&token=3348f7a2-b7b1-4612-a307-f18f1a0cdd7f",
+            "link": "https://github.com/hkmr/tender-dashboard"
+        }
+    ],
+    "connections": [
+        {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/imhkmr/",
+            "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/social%2Flinkedin.svg?alt=media&token=3e71bf86-bbf2-47f9-91dd-4f741dc559d5"
+        },
+        {
+            "name": "Github",
+            "link": "https://bulma.io/images/placeholders/1280x960.png",
+            "image": ""
+        },
+        {
+            "name": "Stackoverflow",
+            "link": "https://bulma.io/images/placeholders/1280x960.png",
+            "image": ""
+        },
+        {
+            "name": "Medium",
+            "link": "https://medium.com/@imhkmr",
+            "image": ""
+        },
+        {
+            "name": "Leetcode",
+            "link": "https://leetcode.com/imhkmr/",
+            "image": ""
+        },
+        {
+            "name": "Hackerrank",
+            "link": "https://www.hackerrank.com/imhkmr",
+            "image": ""
+        },
+        {
+            "name": "Codechef",
+            "link": "",
+            "image": ""
+        },
+        {
+            "name": "Facebook",
+            "link": "https://www.facebook.com/imhkmr/",
+            "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/social%2Ffacebook.svg?alt=media&token=28fb7381-ff3d-4224-abc5-49bcbcd33252"
+        },
+        {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/imhkmr/",
+            "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/social%2Finstagram.svg?alt=media&token=c2a40add-31dd-414a-96e4-6bc3f188de7f"
+        },
+        {
+            "name": "Twitter",
+            "link": "https://twitter.com/imhkmr",
+            "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/social%2Ftwitter.svg?alt=media&token=d6123777-7877-484a-8680-9a0ca7bd52e4"
+        },
+        {
+            "name": "AngelList",
+            "link": "https://angel.co/u/imhkmr",
+            "image": ""
+        }
+    ]
+}
