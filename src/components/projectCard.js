@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function projectCard(props) {
-  var i = 0;
   return (
     <div className="card">
       <div className="card-image">
@@ -23,7 +22,6 @@ export default function projectCard(props) {
           {props.description}<br/>
           {
             props.hashtags.map(hashtag =>{
-              // return <a key={i++} href="#">#{hashtag} </a>;
             return <span className="tag is-link is-light">{hashtag}</span>
             })
           }

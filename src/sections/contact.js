@@ -9,7 +9,7 @@ export default function contact(props) {
     return (
         <footer className="footer has-background-dark">
             <div className="container has-text-centered">
-                <h1 className="title has-text-centered has-text-white">Let's connect 🔗</h1>
+                <h1 className="title has-text-centered has-text-white">Let's connect 🌏</h1>
                 <div style={{display: "inline-flex", flexWrap: "wrap",  alignItems:"center", justifyContent: "center", alignContent:"center"}}>
                     
                     <span className="px-2 py-2">
@@ -52,7 +52,7 @@ export default function contact(props) {
                         </figure>
                     </span>
                 </div>
-                <h4>Designed by <a href="https://www.linkedin.com/in/imhkmr/" style={{textDecoration:"none",color:"black"}}>Harsh Kumar</a></h4>
+                <h4 className="signature">Designed by <a href="https://www.linkedin.com/in/imhkmr/" style={{textDecoration:"none",color:"black"}}>Harsh Kumar</a></h4>
             </div>
         </footer>
     );

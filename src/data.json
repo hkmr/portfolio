@@ -1,6 +1,7 @@
 {
     "author": "Harsh Kumar",
-    "about": "Hi there 👋, I'm\n🔭 Intuitive problem-solver \n🌱 Frontend Developer with ReactJs \n🤖 Backend with NodeJs and Express Framework \n💀 MongoDB || API's || Git and Git\n 👯 I’m looking to collaborate on tech Startup",
+    "email": "harshkumar@gmail.com",
+    "about": "Hi there 👋, I'm\n🔭 Intuitive problem-solver \n🌱 Frontend Developer with ReactJs \n🤖 Backend with NodeJs & Express \n🔥 Firebase || MongoDB || Git\n 👬🏼 I’m looking to collaborate on tech Startup",
     "skills": [
         {
             "name" : "HTML",
@@ -12,6 +13,9 @@
         },
         {
             "name" : "Javascript",
+            "score": 60
+        },{
+            "name": "React-JS",
             "score": 60
         },{
             "name" : "Flutter",
@@ -59,6 +63,57 @@
             "location": "Github",
             "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/projects%2Ftenderfarm.webp?alt=media&token=3348f7a2-b7b1-4612-a307-f18f1a0cdd7f",
             "link": "https://github.com/hkmr/tender-dashboard"
+        },
+        {
+            "name": "Data Structure and Algorithms (DSA)",
+            "description": "An Open-source project for tutorial and all resources related to DSA.",
+            "hashtags": ["Bulma", "react-js","ui-ux"],
+            "location": "Github",
+            "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/projects%2FDSA.png?alt=media&token=8c300f20-82ca-48f4-87c3-d8aca7e3892b",
+            "link": "https://algods.netlify.app/"
+        }
+    ],
+    "achievements":[
+        {
+            "name": "Front-End Web Development with React",
+            "link": "https://www.coursera.org/account/accomplishments/verify/ZRY55GQNFGBY",
+            "image": "https://coursera-certificate-images.s3.amazonaws.com/ZRY55GQNFGBY",
+            "platform":"Coursera"
+        },
+        {
+            "name": "Machine Learning with Python",
+            "link": "https://www.coursera.org/account/accomplishments/verify/U3JQSS5P3MQR",
+            "image": "https://coursera-certificate-images.s3.amazonaws.com/U3JQSS5P3MQR",
+            "platform":"Coursera"
+        },
+        {
+            "name": "Scalable Machine Learning on Big Data using Apache Spark",
+            "link": "https://www.coursera.org/account/accomplishments/verify/BRDRDABFSUYK",
+            "image": "https://coursera-certificate-images.s3.amazonaws.com/BRDRDABFSUYK",
+            "platform":"Coursera"
+        },
+        {
+            "name": "Java (Basic) Certificate",
+            "link": "https://www.hackerrank.com/certificates/4431a5a5c284",
+            "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/achievements%2Fjava-hackerrank.png?alt=media&token=3afb7105-1425-4ab1-b34e-9575c732129e",
+            "platform":"Hackerrank"
+        },{
+            "name": "Problem Solving (Basic) Certificate",
+            "link": "https://www.hackerrank.com/certificates/51a6950e1c41",
+            "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/achievements%2Fproblem-solving.png?alt=media&token=da6e27e1-1e19-4925-9344-ed420a4a9a53",
+            "platform":"Hackerrank"
+        },
+        {
+            "name": "React (Basic) Certificate",
+            "link": "https://www.hackerrank.com/certificates/f130e7bd9ea5",
+            "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/achievements%2Freact-hackerrank.png?alt=media&token=d9dcee8c-2fbe-47bd-a49c-07078ed1ede9",
+            "platform":"Hackerrank"
+        },
+        {
+            "name": "Android Basic Nanodegree by Google",
+            "link": "https://graduation.udacity.com/confirm/JX2VHRUW",
+            "image": "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/f9eb0902-f6af-4441-bdc4-fb26586a4a53.svg",
+            "platform":"Udacity"
         }
     ],
     "connections": [
