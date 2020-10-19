@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function about(props) {
+    let i = 0;
     return (
         <section className="section about-section">
             <span className="about-background is-hidden-touch">HARSH</span>
@@ -17,14 +18,12 @@ export default function about(props) {
                             <ul className="subtitle">
                                 {
                                     props.about.split('\n').map(str => {
-                                    return(<li>{str}</li>
+                                    return(<li key={i++}>{str}</li>
                                     )})
                                 }
                             </ul>
                         </div>
-                    </div>
-                    <div className="column">
-                        <a target="_blank" href="http://bit.ly/imhrsh-r" className="button is-rounded is-info">📃 Resume</a>
+                        <a target="_blank" href="http://bit.ly/imhrsh-r" className="button my-3 is-rounded is-large is-info">Resume 📝</a>
                     </div>
                 </div>
                 </div>

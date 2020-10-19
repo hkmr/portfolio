@@ -7,12 +7,13 @@ export default function projects(props) {
     <section className="section">
       <div className="container">
         <h1 className="title">Projects Completed 👨🏼‍💻</h1>
-        <div className="columns is-vcentered  is-multiline is-mobile">
+        <div className="columns  is-multiline is-mobile">
           {
             props.projects.map(project => {
               return (
                 <div key={i++} className="column is-full-mobile is-half-tablet is-one-third-desktop is-one-third-widescreen">
                   <ProjectCard
+                    key={project.key}
                     name={project.name} 
                     location={project.location}
                     description={project.description}

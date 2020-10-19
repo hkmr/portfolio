@@ -33,6 +33,7 @@
     ],
     "projects" : [
         {
+            "id": 0,
             "name": "Wallmob",
             "description": "Wallmob provides amazing HD wallpapers for mobile. Each wallpaper is a real masterpiece selected by Android Station Team - just tilt your device to see more!",
             "hashtags": ["flutter", "firebase", "wallpaper"],
@@ -41,6 +42,7 @@
             "link": "https://play.google.com/store/apps/details?id=org.infotechcenter.wallmob"
         },
         {
+            "id": 1,
             "name": "Newsly",
             "description": "It delivers the latest news updates and breaking stories from all over the world in multiple languages.",
             "hashtags": ["flutter", "firebase", "firebase-auth"],
@@ -49,6 +51,7 @@
             "link": "https://play.google.com/store/apps/details?id=org.infotechcenter.newsly"
         },
         {
+            "id": 2,
             "name": "Movie Bucket",
             "description": "This project is for movies download from the torrent and getting detail about the movies.",
             "hashtags": ["react-js", "firebase","torrent"],
@@ -57,6 +60,7 @@
             "link": "https://moviebuckets-e5d25.firebaseapp.com/"
         },
         {
+            "id": 3,
             "name": "TenderFarm Dashboard",
             "description": "A dashboard UI for the Tenders management designed in Bootstrap.",
             "hashtags": ["bootstrap", "react-js","ui-ux"],
@@ -65,6 +69,7 @@
             "link": "https://github.com/hkmr/tender-dashboard"
         },
         {
+            "id": 4,
             "name": "Data Structure and Algorithms (DSA)",
             "description": "An Open-source project for tutorial and all resources related to DSA.",
             "hashtags": ["Bulma", "react-js","ui-ux"],
@@ -75,41 +80,48 @@
     ],
     "achievements":[
         {
+            "id": 0,
             "name": "Front-End Web Development with React",
             "link": "https://www.coursera.org/account/accomplishments/verify/ZRY55GQNFGBY",
             "image": "https://coursera-certificate-images.s3.amazonaws.com/ZRY55GQNFGBY",
             "platform":"Coursera"
         },
         {
+            "id": 1,
             "name": "Machine Learning with Python",
             "link": "https://www.coursera.org/account/accomplishments/verify/U3JQSS5P3MQR",
             "image": "https://coursera-certificate-images.s3.amazonaws.com/U3JQSS5P3MQR",
             "platform":"Coursera"
         },
         {
+            "id": 2,
             "name": "Scalable Machine Learning on Big Data using Apache Spark",
             "link": "https://www.coursera.org/account/accomplishments/verify/BRDRDABFSUYK",
             "image": "https://coursera-certificate-images.s3.amazonaws.com/BRDRDABFSUYK",
             "platform":"Coursera"
         },
         {
+            "id": 3,
             "name": "Java (Basic) Certificate",
             "link": "https://www.hackerrank.com/certificates/4431a5a5c284",
             "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/achievements%2Fjava-hackerrank.png?alt=media&token=3afb7105-1425-4ab1-b34e-9575c732129e",
             "platform":"Hackerrank"
         },{
+            "id": 4,
             "name": "Problem Solving (Basic) Certificate",
             "link": "https://www.hackerrank.com/certificates/51a6950e1c41",
             "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/achievements%2Fproblem-solving.png?alt=media&token=da6e27e1-1e19-4925-9344-ed420a4a9a53",
             "platform":"Hackerrank"
         },
         {
+            "id": 5,
             "name": "React (Basic) Certificate",
             "link": "https://www.hackerrank.com/certificates/f130e7bd9ea5",
             "image": "https://firebasestorage.googleapis.com/v0/b/harshprofileinfo.appspot.com/o/achievements%2Freact-hackerrank.png?alt=media&token=d9dcee8c-2fbe-47bd-a49c-07078ed1ede9",
             "platform":"Hackerrank"
         },
         {
+            "id": 6,
             "name": "Android Basic Nanodegree by Google",
             "link": "https://graduation.udacity.com/confirm/JX2VHRUW",
             "image": "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/f9eb0902-f6af-4441-bdc4-fb26586a4a53.svg",

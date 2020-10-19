@@ -1,8 +1,9 @@
 import React from "react";
 
 export default function projectCard(props) {
+  let i=0;
   return (
-    <div className="card">
+    <div className="card card-equal-height" style={{height: "100%"}}>
       <div className="card-image">
         <a target="_blank" href={props.link}>
           <figure className="image is-4by3">
@@ -17,17 +18,15 @@ export default function projectCard(props) {
             <p className="subtitle is-6">{props.location}</p>
           </div>
         </div>
-
         <div className="tags">
           {props.description}<br/>
           {
             props.hashtags.map(hashtag =>{
-            return <span className="tag is-link is-light">{hashtag}</span>
+            return <span key={i++} className="tag is-link is-light">{hashtag}</span>
             })
           }
           <br/>
         </div>
-
       </div>
     </div>
   );
