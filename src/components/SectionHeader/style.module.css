@@ -1,0 +1,29 @@
+.header_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20%;
+}
+
+.header_actions {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: end;
+}
+
+@media only screen and (max-width: 768px) {
+  .header_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header_actions {
+    align-items: start;
+    text-align: start;
+  }
+  
+}

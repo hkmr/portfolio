@@ -1,0 +1,16 @@
+.section_container {
+  margin-block: 60px;
+  padding-inline: 80px;
+}
+
+.card_container {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card_container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,11 @@
+.nav_menus {
+
+}
+
+@media only screen and (max-width: 768px) {
+  .nav_menus {
+    top: 72px;
+    right: 0px;
+    height: calc(100vh - 72px);
+  }
+}

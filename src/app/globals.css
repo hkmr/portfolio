@@ -3,31 +3,76 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+    --primary: #079211;
+    --white: #dcdcdc;
+    --dark: #282831;
+    --deep-dark: #050507;
+    --light-dark: #313131;
+    --gray: #808080;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    color: rgb(var(--foreground-rgb));
+    background-color: var(--dark);
+}
+
+*::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--deep-dark);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #07921050;
+    opacity: 0.1;
+    border-radius: 8px;
+    border: 2px solid var(--foreground-rgb);
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+    .text-balance {
+        text-wrap: balance;
+    }
+}
+
+.section_container {
+  margin-block: 60px;
+  padding-inline: 180px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) {
+  .section_container {
+    margin-block: 30px;
+    padding-inline: 20px;
   }
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section_container {
+    margin-block: 30px;
+    padding-inline: 60px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1220px) {
+  .section_container {
+    margin-block: 60px;
+    padding-inline: 120px;
+  }
+}
+
+/* Extra Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1220px) {
+  .section_container {
+    margin-block: 60px;
+    padding-inline: 180px;
+  }
+}
+
+
+

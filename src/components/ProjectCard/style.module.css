@@ -1,0 +1,7 @@
+.project_image {
+  filter: grayscale(0.7);
+}
+
+.project_image:hover {
+  filter: none;
+}

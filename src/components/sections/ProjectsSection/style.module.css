@@ -1,0 +1,5 @@
+.section_container {
+  padding-block: 60px;
+  padding-inline: 180px;
+  background-color: var(--light-dark);
+}
