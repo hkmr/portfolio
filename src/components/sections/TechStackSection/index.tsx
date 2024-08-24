@@ -63,6 +63,7 @@ const TechStackSection = () => {
                 {stackData.data.map((stack, idx) => {
                     return (
                         <StackCard
+                            key={idx}
                             title={stack.title}
                             description={stack.description}
                             icons={stack.icons}
