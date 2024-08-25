@@ -22,7 +22,7 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-    background: var(--deep-dark);
+    background: var(--dark);
 }
 
 *::-webkit-scrollbar-thumb {

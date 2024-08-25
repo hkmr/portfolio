@@ -18,7 +18,7 @@ const stackData = {
         {
             title: "Backend Tech",
             description:
-                "Experience working in frontend with javascript and typescript including framework React and Next JS.",
+                "Experience working in backend with java and javascript including framework Spring boot and Node(Nest Js).",
             icons: [
                 "/assets/icons/spring-boot.svg",
                 "/assets/icons/node.svg",
@@ -30,7 +30,7 @@ const stackData = {
         {
             title: "Product Design",
             description:
-                "Experience working in frontend with javascript and typescript including framework React and Next JS.",
+                "Experience working in desiging using tools like Figma and Adobe xd",
             icons: [
                 "/assets/icons/figma.svg",
                 "/assets/icons/adobe-xd.svg",
@@ -41,7 +41,7 @@ const stackData = {
 
 const TechStackSection = () => {
     return (
-        <section className={`w-full section_container`}>
+        <section className={`w-full section_container`} id="tech">
             <SectionHeader
                 title="Working Techstack"
                 tailing={

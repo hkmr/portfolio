@@ -4,7 +4,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 const ProjectSection = () => {
     return (
-        <section className={`w-full section_container bg-lightDark py-8`} style={{marginBottom: "0px"}}>
+        <section className={`w-full section_container bg-lightDark py-8`} style={{marginBottom: "0px"}} id="projects">
             <SectionHeader
                 title="Some of my favorite projects"
                 tailing={
