@@ -1,35 +1,26 @@
+import Link from "next/link";
 import style from "./style.module.css";
 
 const HeroSection = () => {
   return (
     <section className={`w-full section_container ${style.section_container}`}>
       <div>
-        <h2 className="text-primary text-xl md:text-2xl xl:text-3xl font-bold">
-          Hello, I’m Harsh Kumar
-        </h2>
+        <h2 className="text-primary text-xl md:text-2xl xl:text-3xl font-bold">Hello, I’m Harsh Kumar</h2>
         <h4 className="text-4xl xl:text-5xl text-white font-bold">
           Senior Software Engineer<span className="animate-ping">|</span>
         </h4>
         <p className={`text-md text-gray ${style.description_para}`}>
-          Enthusiastic software engineer eager to contribute to team success
-          through hard work, attention to detail and excellent organizational
-          skills. Clear understanding of software development process and
-          training in ReactJs, .Net. Motivated to learn, grow and excel in
-          Software Industry
+          Highly skilled Frontend Developer with over 3 years of experience in building scalable, responsive, and userfriendly applications using React and Next.js. Proficient in
+          creating reusable components, optimizing performance, and delivering high-quality solutions. Proven ability to work collaboratively and adapt to new technologies.
+          Committed to writing clean, efficient, and well-documented code. Excited to leverage my expertise to drive innovative projects and advance user experience.
         </p>
       </div>
       <div className={style.btn_container}>
-        <a className={style.email_btn} href="mailto:harshkmr991234@gmail.com">
+        <Link className={style.email_btn} href="mailto:harshkmr991234@gmail.com">
           Email Me
-        </a>
-        <a className={style.resume_btn} href="#">
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+        </Link>
+        <Link className={style.resume_btn} href="#">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               fill-rule="evenodd"
               clip-rule="evenodd"
@@ -38,7 +29,7 @@ const HeroSection = () => {
             />
           </svg>
           Dowload CV
-        </a>
+        </Link>
       </div>
     </section>
   );

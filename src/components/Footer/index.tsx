@@ -1,56 +1,57 @@
 import React from "react";
 import style from "./style.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer className={`w-full bg-deepDark section_container ${style.section_container}`}>
       <div className="flex flex-col md:flex-row gap-12 md:gap-0 justify-between">
         <div>
-          <a href="#" className="text-2xl font-bold">
+          <Link href="/" className="text-2xl font-bold">
             <span className="text-primary">{"<"}</span>
             <span className="self-center text-white whitespace-nowrap">Harsh</span>
             <span className="text-primary">{" />"}</span>
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col md:flex-row gap-12">
           <ul className="flex flex-col gap-2 text-gray">
             <li className="text-white text-xl mb-2">Information</li>
             <li>
-              <a className="hover:text-primary" href="#">
+              <Link className="hover:text-primary" href="tel:+91-8210143861">
                 +91-8210143861
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:text-primary" href="#">
+              <Link className="hover:text-primary" href="mailto:harshkmr991234@gmail.com">
                 harshkmr991234@gmail.com
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:text-primary" href="#">
+              <span className="hover:text-primary">
                 India
-              </a>
+              </span>
             </li>
           </ul>
           <ul className="flex flex-col gap-2 text-gray">
             <li className="text-white text-xl mb-2">Social Media</li>
             <li>
-              <a className="flex items-center gap-2 hover:text-primary" href="https://www.linkedin.com/in/imhkmr/" target="_blank">
+              <Link className="flex items-center gap-2 hover:text-primary" href="https://www.linkedin.com/in/imhkmr/" target="_blank">
                 <Image src="/assets/icons/linkedin.svg" height={20} width={20} alt="Linkedin" />
                 LinkedIn
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="flex items-center gap-2 hover:text-primary" href="https://github.com/hkmr" target="_blank">
+              <Link className="flex items-center gap-2 hover:text-primary" href="https://github.com/hkmr" target="_blank">
                 <Image src="/assets/icons/github.svg" height={20} width={20} alt="Linkedin" />
                 Github
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="flex items-center gap-2 hover:text-primary" href="https://www.instagram.com/imhkmr/" target="_blank">
+              <Link className="flex items-center gap-2 hover:text-primary" href="https://www.instagram.com/imhkmr/" target="_blank">
                 <Image src="/assets/icons/instagram.svg" height={20} width={20} alt="Linkedin" />
                 Instagram
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

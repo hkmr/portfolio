@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import style from "./style.module.css";
+import Link from "next/link";
 
 const navbarLinks = [
   {
@@ -8,7 +9,7 @@ const navbarLinks = [
     link: "/",
   },
   {
-    text: "Expirence",
+    text: "Experience",
     link: "#expirence",
   },
   {
@@ -31,11 +32,11 @@ const Navbar = () => {
   return (
     <nav className="border-gray-200 bg-primary sticky top-0 z-50">
       <div className="w-full section_container flex flex-wrap items-center justify-between mx-auto p-4" style={{marginBlock: "0px"}}>
-        <a href="#" className="text-2xl font-bold">
+        <Link href="/" className="text-2xl font-bold">
           <span className="text-dark-900">{"<"}</span>
           <span className="self-center text-white whitespace-nowrap">Harsh</span>
           <span className="text-dark-900">{" />"}</span>
-        </a>
+        </Link>
         <button
           data-collapse-toggle="navbar-solid-bg"
           type="button"
@@ -66,8 +67,9 @@ const Navbar = () => {
             {navbarLinks.map((navItem, i) => {
               return (
                 <li key={i}>
-                  <a
+                  <Link
                     href={navItem.link}
+                    onClick={() => setIsOpen(false)}
                     className="flex gap-3 items-center py-2 px-3 md:p-0 text-white rounded hover:text-dark md:hover:bg-transparent md:border-0 text-3xl md:text-base mb-7 md:mb-0"
                   >
                     {navItem.text}
@@ -84,7 +86,7 @@ const Navbar = () => {
                         </clipPath>
                       </defs>
                     </svg>
-                  </a>
+                  </Link>
                 </li>
               );
             })}

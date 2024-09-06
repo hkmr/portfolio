@@ -1,10 +1,10 @@
 "use client";
-import SectionHeader from "@/components/SectionHeader";
 import ProjectCard from "@/components/ProjectCard";
+import SectionHeader from "@/components/SectionHeader";
 import Carousel from "react-multi-carousel";
-import { projectData } from "./data";
+import { achivementData } from "./data";
 
-const ProjectSection = () => {
+const AchivementSection = () => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -24,27 +24,30 @@ const ProjectSection = () => {
   };
 
   return (
-    <section className={`w-full section_container bg-lightDark py-8`} style={{ marginBottom: "0px" }} id="projects">
+    <section className={`w-full section_container bg-lightDark py-8`} style={{ marginBottom: "0px", marginTop: "2px" }} id="projects">
       <SectionHeader
-        title="Some of my favorite projects"
+        title="Certifications and Achivements"
         tailing={
           <>
             <span className="text-primary flex items-center flex-row-reverse md:flex-row" style={{ gap: "4px" }}>
               <hr style={{ width: "50px" }} />
-              Recent Work
+              Recent Certificates
             </span>
           </>
         }
       />
       <div className="" style={{ marginTop: "30px" }}>
         <Carousel swipeable={true} responsive={responsive}>
-          {projectData.map((project, index) => (
-            <ProjectCard key={index} title={project.title} image={project.image} link={project.link} />
-          ))}
+          {
+            achivementData.map((achivement, index) => (
+              <ProjectCard key={index} title={achivement.title} image={achivement.image} link={achivement.link} />
+            ))
+          }
+          
         </Carousel>
       </div>
     </section>
   );
 };
 
-export default ProjectSection;
+export default AchivementSection;
