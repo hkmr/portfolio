@@ -35,19 +35,19 @@ const Footer = () => {
           <ul className="flex flex-col gap-2 text-gray">
             <li className="text-white text-xl mb-2">Social Media</li>
             <li>
-              <a className="flex items-center gap-2 hover:text-primary" href="#">
+              <a className="flex items-center gap-2 hover:text-primary" href="https://www.linkedin.com/in/imhkmr/" target="_blank">
                 <Image src="/assets/icons/linkedin.svg" height={20} width={20} alt="Linkedin" />
                 LinkedIn
               </a>
             </li>
             <li>
-              <a className="flex items-center gap-2 hover:text-primary" href="#">
+              <a className="flex items-center gap-2 hover:text-primary" href="https://github.com/hkmr" target="_blank">
                 <Image src="/assets/icons/github.svg" height={20} width={20} alt="Linkedin" />
                 Github
               </a>
             </li>
             <li>
-              <a className="flex items-center gap-2 hover:text-primary" href="#">
+              <a className="flex items-center gap-2 hover:text-primary" href="https://www.instagram.com/imhkmr/" target="_blank">
                 <Image src="/assets/icons/instagram.svg" height={20} width={20} alt="Linkedin" />
                 Instagram
               </a>
@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
       <div className="flex flex-col md:flex-row justify-between gap-4 mt-12 border-t-2 border-primary py-4 opacity-30 text-sm text-center">
         <p className="text-white">Design and develop by <span className="text-primary font-bold">Harsh</span></p>
-        <p className="text-white">Copyright ©2023</p>
+        <p className="text-white">Copyright ©2024</p>
       </div>
     </footer>
   );

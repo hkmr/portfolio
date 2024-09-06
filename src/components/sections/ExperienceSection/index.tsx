@@ -6,30 +6,20 @@ const experienceData: TimelinePropsType = {
     items: [
         {
             title: "HCAH",
-            date: "Dec, 2022",
-            description: "Test data dummy data",
+            date: "Dec, 2022 - present",
+            description: "Working as Frontend Developer (React, NextJS)",
         },
         {
-            title: "HCAH",
-            date: "Dec, 2022",
-            description: "Test data dummy data",
-        },
-        {
-            title: "HCAH",
-            date: "Dec, 2022",
-            description: "Test data dummy data",
-        },
-        {
-            title: "HCAH",
-            date: "Dec, 2022",
-            description: "Test data dummy data",
+            title: "Publicis Sapient",
+            date: "Dec, 2021 - Dec 2022",
+            description: "Worked as Fullstack Developer(.Net, React)",
         },
     ],
 };
 
 const ExperienceSection = () => {
     return (
-        <section className={`w-full section_container`}>
+        <section className={`w-full section_container`} id="expirence">
             <SectionHeader
                 title="3+ years working experience"
                 tailing={

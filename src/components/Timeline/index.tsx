@@ -13,6 +13,7 @@ const TimeLine = ({ data }: { data: TimelinePropsType }) => {
                 {data.items.map((item, index) => {
                     return (
                         <TimelineItem
+                            key={index}
                             title={item.title}
                             date={item.date}
                             description={item.description}

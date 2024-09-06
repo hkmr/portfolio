@@ -5,19 +5,19 @@ import style from "./style.module.css";
 const navbarLinks = [
   {
     text: "Home",
-    link: "",
+    link: "/",
   },
   {
     text: "Expirence",
-    link: "",
+    link: "#expirence",
   },
   {
     text: "Tech",
-    link: "",
+    link: "#tech",
   },
   {
     text: "Projects",
-    link: "",
+    link: "#projects",
   },
 ];
 
@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <nav className="border-gray-200 bg-primary sticky top-0 z-50">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="w-full section_container flex flex-wrap items-center justify-between mx-auto p-4" style={{marginBlock: "0px"}}>
         <a href="#" className="text-2xl font-bold">
           <span className="text-dark-900">{"<"}</span>
           <span className="self-center text-white whitespace-nowrap">Harsh</span>
