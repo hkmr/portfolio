@@ -24,7 +24,7 @@ const AchivementSection = () => {
   };
 
   return (
-    <section className={`w-full section_container bg-lightDark py-8`} style={{ marginBottom: "0px", marginTop: "2px" }} id="projects">
+    <section className={`w-full section_container bg-lightDark py-8 border-primary border-t-2`} style={{ marginBottom: "0px", marginTop: "0px" }} id="projects">
       <SectionHeader
         title="Certifications and Achivements"
         tailing={

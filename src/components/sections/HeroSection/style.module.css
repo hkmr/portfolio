@@ -1,4 +1,26 @@
 
+.section_container {
+  margin-top: 80px;
+  position: relative;
+}
+
+.section_container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 30%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url("/assets/images/pattern-1.png");
+  background-repeat: repeat-x;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 50%;
+  overflow: hidden;
+}
+
 .description_para {
     margin-top: 30px;
     width: 50%;
@@ -17,6 +39,10 @@
     border-radius: 8px;
     color: var(--white);
     font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px
 }
 
 .resume_btn {
@@ -27,6 +53,24 @@
     padding-inline: 28px;
     padding-block: 18px;
     border-radius: 8px;
+}
+
+.heading {
+  position: relative;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 60px;
+  width: 50px;
+  right: -50px;
+  top: -30px;
+  background-image: url("/assets/images/triangles.svg");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  border-radius: 50%;
 }
 
 @media only screen and (max-width: 768px) {

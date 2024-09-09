@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="border-gray-200 bg-primary sticky top-0 z-50">
+    <nav className="border-gray-200 bg-primary sticky top-0" style={{zIndex: 1000}}>
       <div className="w-full section_container flex flex-wrap items-center justify-between mx-auto p-4" style={{marginBlock: "0px"}}>
         <Link href="/" className="text-2xl font-bold">
           <span className="text-dark-900">{"<"}</span>

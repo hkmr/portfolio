@@ -21,7 +21,7 @@ const ExperienceSection = () => {
     return (
         <section className={`w-full section_container`} id="expirence">
             <SectionHeader
-                title="3+ years working experience"
+                title="Experience"
                 tailing={
                     <>
                         <span
@@ -32,7 +32,7 @@ const ExperienceSection = () => {
                             Technology
                         </span>
                         <p className="text-gray">
-                            The technologies expertise at and having experience
+                            With over 3+ work experience
                         </p>
                     </>
                 }
