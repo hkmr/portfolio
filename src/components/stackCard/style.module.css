@@ -1,6 +1,7 @@
 .card {
   background-color: var(--light-dark);
   padding: 30px;
+  border: 4px solid black;
   border-bottom: 4px solid var(--primary);
   max-width: 33%;
   display: flex;
