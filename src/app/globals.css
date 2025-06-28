@@ -3,39 +3,39 @@
 @tailwind utilities;
 
 :root {
-    --primary: #079211;
-    --white: #dcdcdc;
-    --dark: #282831;
-    --deep-dark: #050507;
-    --light-dark: #313131;
-    --gray: #808080;
+  --primary: #079211;
+  --white: #dcdcdc;
+  --dark: #282831;
+  --deep-dark: #050507;
+  --light-dark: #313131;
+  --gray: #808080;
 }
 
 body {
-    color: rgb(var(--foreground-rgb));
-    background-color: rgb(26 26 26);
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(26 26 26);
 }
 
 *::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
+  width: 4px;
+  height: 4px;
 }
 
 *::-webkit-scrollbar-track {
-    background: var(--dark);
+  background: var(--dark);
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #07921050;
-    opacity: 0.1;
-    border-radius: 8px;
-    border: 2px solid var(--foreground-rgb);
+  background-color: #07921050;
+  opacity: 0.1;
+  border-radius: 8px;
+  border: 2px solid var(--foreground-rgb);
 }
 
 @layer utilities {
-    .text-balance {
-        text-wrap: balance;
-    }
+  .text-balance {
+    text-wrap: balance;
+  }
 }
 
 .section_container {
@@ -73,6 +73,3 @@ body {
     padding-inline: 180px;
   }
 }
-
-
-

@@ -17,8 +17,8 @@ const nextConfig = {
       {
         hostname: 'udemy-certificate.s3.amazonaws.com',
       },
-    ]
-  }
+    ],
+  },
 };
 
 export default nextConfig;

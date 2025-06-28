@@ -1,5 +1,5 @@
-import Link from "next/link";
-import style from "./style.module.css";
+import Link from 'next/link';
+import style from './style.module.css';
 
 const ContactSection = () => {
   return (
@@ -10,7 +10,9 @@ const ContactSection = () => {
           <p className="text-gray md:text-xl mt-2">Feel free to contact me or just say friendly hello!</p>
         </div>
         <div>
-          <Link href="mailto:harshkmr991234@gmail.com" className="text-white bg-primary px-4 py-2">Contact Me</Link>
+          <Link href="mailto:harshkmr991234@gmail.com" className="text-white bg-primary px-4 py-2">
+            Contact Me
+          </Link>
         </div>
       </div>
     </section>

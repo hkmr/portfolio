@@ -1,18 +1,23 @@
-import Link from "next/link";
-import style from "./style.module.css";
+import Link from 'next/link';
+import style from './style.module.css';
 
 const HeroSection = () => {
   return (
     <section className={`w-full section_container ${style.section_container}`}>
       <div className="mb-8">
-        <h2 className={`text-primary text-xl w-fit font-bold underline underline-offset-8 mb-4 md:text-2xl xl:text-3xl ${style.heading}`}>Hello, I’m Harsh Kumar</h2>
+        <h2
+          className={`text-primary text-xl w-fit font-bold underline underline-offset-8 mb-4 md:text-2xl xl:text-3xl ${style.heading}`}
+        >
+          Hello, I’m Harsh Kumar
+        </h2>
         <h4 className="text-4xl xl:text-5xl text-white font-bold">
           Senior Software Engineer<span className="animate-ping">|</span>
         </h4>
         <p className={`text-md text-gray ${style.description_para}`}>
-          Highly skilled Frontend Developer with over 3 years of experience in building scalable, responsive, and userfriendly applications using React and Next.js. Proficient in
-          creating reusable components, optimizing performance, and delivering high-quality solutions. Proven ability to work collaboratively and adapt to new technologies.
-          Committed to writing clean, efficient, and well-documented code. Excited to leverage my expertise to drive innovative projects and advance user experience.
+          Results-driven Frontend Developer with 4+ years of experience in building scalable, high-performance web and
+          mobile applications. Expertise in React, Next.js, TypeScript, and Flutter, with a strong focus on UI/UX
+          optimization, performance tuning, and modern frontend architectures. Passionate about clean code, SOLID
+          principles, and mentoring junior developers.
         </p>
       </div>
       <div className={style.btn_container}>
@@ -26,7 +31,14 @@ const HeroSection = () => {
           Email Me
         </Link>
         <Link className={style.resume_btn} href="#">
-          <svg className="animate-bounce" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg
+            className="animate-bounce"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <path
               fill-rule="evenodd"
               clip-rule="evenodd"
