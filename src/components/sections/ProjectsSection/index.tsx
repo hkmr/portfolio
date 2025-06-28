@@ -1,8 +1,8 @@
-"use client";
-import SectionHeader from "@/components/SectionHeader";
-import ProjectCard from "@/components/ProjectCard";
-import Carousel from "react-multi-carousel";
-import { projectData } from "./data";
+'use client';
+import SectionHeader from '@/components/SectionHeader';
+import ProjectCard from '@/components/ProjectCard';
+import Carousel from 'react-multi-carousel';
+import { projectData } from './data';
 
 const ProjectSection = () => {
   const responsive = {
@@ -24,19 +24,19 @@ const ProjectSection = () => {
   };
 
   return (
-    <section className={`w-full section_container bg-lightDark py-8`} style={{ marginBottom: "0px" }} id="projects">
+    <section className={`w-full section_container bg-lightDark py-8`} style={{ marginBottom: '0px' }} id="projects">
       <SectionHeader
         title="Something building"
         tailing={
           <>
-            <span className="text-primary flex items-center flex-row-reverse md:flex-row" style={{ gap: "4px" }}>
-              <hr style={{ width: "50px" }} />
+            <span className="text-primary flex items-center flex-row-reverse md:flex-row" style={{ gap: '4px' }}>
+              <hr style={{ width: '50px' }} />
               Recent Work
             </span>
           </>
         }
       />
-      <div className="" style={{ marginTop: "30px" }}>
+      <div className="" style={{ marginTop: '30px' }}>
         <Carousel swipeable={true} responsive={responsive}>
           {projectData.map((project, index) => (
             <ProjectCard key={index} title={project.title} image={project.image} link={project.link} />

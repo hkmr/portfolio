@@ -1,8 +1,8 @@
-"use client";
-import ProjectCard from "@/components/ProjectCard";
-import SectionHeader from "@/components/SectionHeader";
-import Carousel from "react-multi-carousel";
-import { achivementData } from "./data";
+'use client';
+import ProjectCard from '@/components/ProjectCard';
+import SectionHeader from '@/components/SectionHeader';
+import Carousel from 'react-multi-carousel';
+import { achivementData } from './data';
 
 const AchivementSection = () => {
   const responsive = {
@@ -24,26 +24,27 @@ const AchivementSection = () => {
   };
 
   return (
-    <section className={`w-full section_container bg-lightDark py-8 border-primary border-t-2`} style={{ marginBottom: "0px", marginTop: "0px" }} id="projects">
+    <section
+      className={`w-full section_container bg-lightDark py-8 border-primary border-t-2`}
+      style={{ marginBottom: '0px', marginTop: '0px' }}
+      id="projects"
+    >
       <SectionHeader
         title="Certifications and Achivements"
         tailing={
           <>
-            <span className="text-primary flex items-center flex-row-reverse md:flex-row" style={{ gap: "4px" }}>
-              <hr style={{ width: "50px" }} />
+            <span className="text-primary flex items-center flex-row-reverse md:flex-row" style={{ gap: '4px' }}>
+              <hr style={{ width: '50px' }} />
               Recent Certificates
             </span>
           </>
         }
       />
-      <div className="" style={{ marginTop: "30px" }}>
+      <div className="" style={{ marginTop: '30px' }}>
         <Carousel swipeable={true} responsive={responsive}>
-          {
-            achivementData.map((achivement, index) => (
-              <ProjectCard key={index} title={achivement.title} image={achivement.image} link={achivement.link} />
-            ))
-          }
-          
+          {achivementData.map((achivement, index) => (
+            <ProjectCard key={index} title={achivement.title} image={achivement.image} link={achivement.link} />
+          ))}
         </Carousel>
       </div>
     </section>

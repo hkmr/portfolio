@@ -1,9 +1,9 @@
-import AchivementSection from "@/components/sections/AchivementSection";
-import ContactSection from "@/components/sections/ContactSection";
-import ExperienceSection from "@/components/sections/ExperienceSection";
-import HeroSection from "@/components/sections/HeroSection";
-import ProjectSection from "@/components/sections/ProjectsSection";
-import TechStackSection from "@/components/sections/TechStackSection";
+import AchivementSection from '@/components/sections/AchivementSection';
+import ContactSection from '@/components/sections/ContactSection';
+import ExperienceSection from '@/components/sections/ExperienceSection';
+import HeroSection from '@/components/sections/HeroSection';
+import ProjectSection from '@/components/sections/ProjectsSection';
+import TechStackSection from '@/components/sections/TechStackSection';
 
 export default function Home() {
   return (

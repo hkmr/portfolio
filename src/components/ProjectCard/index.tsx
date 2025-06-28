@@ -1,6 +1,6 @@
-import Image from "next/image";
-import style from "./style.module.css";
-import Link from "next/link";
+import Image from 'next/image';
+import style from './style.module.css';
+import Link from 'next/link';
 
 const ProjectCard = ({ title, image, link }: { title: string; image: string; link: string }) => {
   return (

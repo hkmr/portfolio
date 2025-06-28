@@ -1,24 +1,24 @@
-"use client";
-import { useState } from "react";
-import style from "./style.module.css";
-import Link from "next/link";
+'use client';
+import { useState } from 'react';
+import style from './style.module.css';
+import Link from 'next/link';
 
 const navbarLinks = [
   {
-    text: "Home",
-    link: "/",
+    text: 'Home',
+    link: '/',
   },
   {
-    text: "Experience",
-    link: "#expirence",
+    text: 'Experience',
+    link: '#expirence',
   },
   {
-    text: "Tech",
-    link: "#tech",
+    text: 'Tech',
+    link: '#tech',
   },
   {
-    text: "Projects",
-    link: "#projects",
+    text: 'Projects',
+    link: '#projects',
   },
 ];
 
@@ -30,12 +30,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="border-gray-200 bg-primary sticky top-0" style={{zIndex: 1000}}>
-      <div className="w-full section_container flex flex-wrap items-center justify-between mx-auto p-4" style={{marginBlock: "0px"}}>
+    <nav className="border-gray-200 bg-primary sticky top-0" style={{ zIndex: 1000 }}>
+      <div
+        className="w-full section_container flex flex-wrap items-center justify-between mx-auto p-4"
+        style={{ marginBlock: '0px' }}
+      >
         <Link href="/" className="text-2xl font-bold">
-          <span className="text-dark-900">{"<"}</span>
+          <span className="text-dark-900">{'<'}</span>
           <span className="self-center text-white whitespace-nowrap">Harsh</span>
-          <span className="text-dark-900">{" />"}</span>
+          <span className="text-dark-900">{' />'}</span>
         </Link>
         <button
           data-collapse-toggle="navbar-solid-bg"
@@ -59,7 +62,7 @@ const Navbar = () => {
           )}
         </button>
         <div
-          className={`w-full md:w-auto md:block absolute bg-primary md:relative ${!isOpen && "hidden"} ${
+          className={`w-full md:w-auto md:block absolute bg-primary md:relative ${!isOpen && 'hidden'} ${
             style.nav_menus
           }`}
         >
@@ -73,7 +76,14 @@ const Navbar = () => {
                     className="flex gap-3 items-center py-2 px-3 md:p-0 text-white rounded hover:text-dark md:hover:bg-transparent md:border-0 text-3xl md:text-base mb-7 md:mb-0"
                   >
                     {navItem.text}
-                    <svg className="md:hidden" width="24" height="24" viewBox="0 0 55 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg
+                      className="md:hidden"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 55 51"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
                       <g clip-path="url(#clip0_244_129)">
                         <path
                           d="M0.115845 27.171V23.791H47.5948L26.8128 3.01799L29.1898 0.640991L54.0378 25.481L29.1898 50.321L26.8128 47.946L47.5958 27.171H0.115845Z"
