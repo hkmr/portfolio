@@ -1,7 +1,10 @@
+'use client';
+
 import React from 'react';
 import style from './style.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
+import { changeTheme } from '@/utility/theme';
 
 const Footer = () => {
   return (
@@ -15,6 +18,32 @@ const Footer = () => {
           </Link>
         </div>
         <div className="flex flex-col md:flex-row gap-12">
+          <div className="flex gap-2">
+            <Image
+              height={30}
+              width={30}
+              src={'/assets/images/projects/alana.png'}
+              alt="theme"
+              className="rounded-full"
+              onClick={() => changeTheme('dark1')}
+              />
+            <Image
+              height={30}
+              width={30}
+              src={'/assets/images/projects/alana.png'}
+              alt="theme"
+              className="rounded-full"
+              onClick={() => changeTheme('dark2')}
+              />
+            <Image
+              height={30}
+              width={30}
+              src={'/assets/images/projects/alana.png'}
+              alt="theme"
+              className="rounded-full"
+              onClick={() => changeTheme('light1')}
+            />
+          </div>
           <ul className="flex flex-col gap-2 text-gray">
             <li className="text-white text-xl mb-2">Information</li>
             <li>

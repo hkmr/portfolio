@@ -46,7 +46,7 @@ const TechStackSection = () => {
               <hr style={{ width: '50px' }} />
               Technology
             </span>
-            <p className="text-gray">The technologies expertise at and having experience</p>
+            <p className="text-gray">Expertise and experience in technologies</p>
           </>
         }
       />
