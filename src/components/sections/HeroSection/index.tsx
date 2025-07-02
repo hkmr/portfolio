@@ -30,7 +30,11 @@ const HeroSection = () => {
           </svg>
           Email Me
         </Link>
-        <Link className={style.resume_btn} href="#">
+        <Link
+          className={style.resume_btn}
+          target='_blank'
+          href="https://drive.google.com/file/d/1bPf6uEbYBvYa_-DwbR63S06-xTopLjwQ/view"
+        >
           <svg
             className="animate-bounce"
             width="20"
