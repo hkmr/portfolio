@@ -8,7 +8,9 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Harsh Kumar',
-  description: 'Harsh kumar - frontend developer portfolio',
+  description:
+    'Harsh kumar - Results-driven Frontend Developer with 4+ years of experience in building scalable, high-performance web and mobile applications. Expertise in React, Next.js, TypeScript, and Flutter, with a strong focus on UI/UX optimization, performance tuning, and modern frontend architectures. Passionate about clean code, SOLID principles, and mentoring junior developers.',
+  keywords: ['harsh', 'kumar', 'portfolio', 'frontend developer'],
 };
 
 export default function Home() {
