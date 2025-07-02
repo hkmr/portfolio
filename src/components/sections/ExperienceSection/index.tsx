@@ -39,7 +39,7 @@ const ExperienceSection = () => {
               <hr style={{ width: '50px' }} />
               Technology
             </span>
-            <p className="text-gray">With over 3+ work experience</p>
+            <p className="text-gray">With over years experience</p>
           </>
         }
       />

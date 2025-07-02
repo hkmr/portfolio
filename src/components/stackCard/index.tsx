@@ -9,7 +9,7 @@ type StackCardPropsType = {
 
 const StackCard = ({ title, description, icons }: StackCardPropsType) => {
   return (
-    <div className={`${style.card}`}>
+    <div className={`${style.card} border-4 border-b-primary bg-dark`}>
       {/* Icons */}
       <div className={`${style.icons_container}`}>
         {icons.map((icon, idx) => (

@@ -32,7 +32,6 @@
 }
 
 .email_btn {
-  background-color: var(--primary);
   padding-inline: 28px;
   padding-block: 18px;
   border-radius: 8px;
@@ -66,13 +65,18 @@
   width: 50px;
   right: -50px;
   top: -30px;
-  background-image: url('/assets/images/triangles.svg');
+  /* background-image: url('/assets/images/triangles.svg'); */
   background-repeat: no-repeat;
   object-fit: contain;
   border-radius: 50%;
 }
 
 @media only screen and (max-width: 768px) {
+  .section_container {
+    margin-top: 40px;
+    position: relative;
+  }
+
   .description_para {
     margin-top: 20px;
     width: 100%;
