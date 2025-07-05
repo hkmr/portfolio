@@ -30,4 +30,9 @@ export const projectData: ProjectDataType[] = [
     image: '/assets/images/projects/wallmob.png',
     link: 'https://play.google.com/store/apps/details?id=org.infotechcenter.wallmob&hl=en_IN',
   },
+  {
+    title: 'Herons Pharma - Client Website',
+    image: '/assets/images/projects/herons-pharma.png',
+    link: 'https://play.google.com/store/apps/details?id=org.infotechcenter.wallmob&hl=en_IN',
+  },
 ];

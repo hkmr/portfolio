@@ -37,7 +37,7 @@ const ExperienceSection = () => {
           <>
             <span className="text-primary flex items-center flex-row-reverse md:flex-row" style={{ gap: '4px' }}>
               <hr style={{ width: '50px' }} />
-              Technology
+              Experience
             </span>
             <p className="text-gray">With over years experience</p>
           </>

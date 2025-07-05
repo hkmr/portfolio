@@ -31,7 +31,7 @@ const ProjectSection = () => {
           <>
             <span className="text-primary flex items-center flex-row-reverse md:flex-row" style={{ gap: '4px' }}>
               <hr style={{ width: '50px' }} />
-              Recent Work
+              Works
             </span>
           </>
         }
