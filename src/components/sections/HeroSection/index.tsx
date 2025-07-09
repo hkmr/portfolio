@@ -5,19 +5,20 @@ const HeroSection = () => {
   return (
     <section className={`w-full section_container ${style.section_container}`}>
       <div className="mb-8">
-        <h2
-          className={`text-primary text-xl w-fit font-bold underline underline-offset-8 mb-4 md:text-2xl xl:text-3xl ${style.heading}`}
-        >
-          Hello, I’m Harsh Kumar
+        <h2 className={`text-primary text-xl w-fit font-bold mb-4 md:text-2xl xl:text-3xl ${style.heading}`}>
+          👋 Hi, I’m Harsh Kumar
         </h2>
         <h4 className="text-4xl xl:text-5xl text-white font-bold">
           Senior Software Engineer<span className="animate-ping">|</span>
         </h4>
-        <p className={`text-md text-gray ${style.description_para}`}>
-          Results-driven Frontend Developer with 4+ years of experience in building scalable, high-performance web and
-          mobile applications. Expertise in React, Next.js, TypeScript, and Flutter, with a strong focus on UI/UX
-          optimization, performance tuning, and modern frontend architectures. Passionate about clean code, SOLID
-          principles, and mentoring junior developers.
+        <p className={`text-lg text-gray ${style.description_para}`}>
+          I specialize in building fast, modern, and user-centric web applications. With years of experience in
+          frontend development, I focus on crafting seamless user interfaces using React.js and Next.js, and integrating
+          robust backend services with Node.js. I’m passionate about creating clean, responsive, and accessible designs
+          that don’t just look good but also perform exceptionally well. From idea to deployment, I care about every
+          detail—performance, scalability, SEO, and maintainability. Whether it's building complex dashboards, landing
+          pages, or full-scale applications, I bring both technical expertise and design intuition to deliver solutions
+          that make an impact.
         </p>
       </div>
       <div className={style.btn_container}>
@@ -32,7 +33,7 @@ const HeroSection = () => {
         </Link>
         <Link
           className={style.resume_btn}
-          target='_blank'
+          target="_blank"
           href="https://drive.google.com/file/d/1bPf6uEbYBvYa_-DwbR63S06-xTopLjwQ/view"
         >
           <svg
