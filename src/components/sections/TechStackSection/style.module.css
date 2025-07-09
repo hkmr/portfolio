@@ -1,3 +1,10 @@
+.section_container {
+  padding-block: 60px;
+  /* padding-inline: 180px; */
+  margin-block: 0px;
+  background-color: var(--light-dark);
+}
+
 /* .section_container::before {
   background-image: url("/assets/images/pattern-2.png");
   content: "";

@@ -11,7 +11,7 @@ export const projectData: ProjectDataType[] = [
     link: 'https://stg-iris.hcah.in/',
   },
   {
-    title: 'CAS HCAH',
+    title: 'CAS Panel HCAH',
     image: '/assets/images/projects/cas-dashboard.png',
     link: 'https://cas.hcah.in/',
   },

@@ -13,6 +13,16 @@
   --deep-gray: #0a0a0f;
 }
 
+::selection {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+::-moz-selection {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
 @import "themes/theme-dark-1.css";
 @import "themes/theme-dark-2.css";
 @import "themes/theme-light-1.css";

@@ -24,9 +24,9 @@ const ProjectSection = () => {
   };
 
   return (
-    <section className={`w-full section_container bg-lightDark py-8`} style={{ marginBottom: '0px' }} id="projects">
+    <section className={`w-full section_container bg-lightDark py-8`} style={{ marginBlock: '0px' }} id="projects">
       <SectionHeader
-        title="Cooking Projects"
+        title="Project Showcase"
         tailing={
           <>
             <span className="text-primary flex items-center flex-row-reverse md:flex-row" style={{ gap: '4px' }}>
