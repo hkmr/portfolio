@@ -4,7 +4,7 @@ import SectionHeader from '@/components/SectionHeader';
 import Carousel from 'react-multi-carousel';
 import { achivementData } from './data';
 
-const AchivementSection = () => {
+const AchievementSection = () => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -30,7 +30,7 @@ const AchivementSection = () => {
       id="projects"
     >
       <SectionHeader
-        title="Certifications and Achivements"
+        title="Certifications and Achievements"
         tailing={
           <>
             <span className="text-primary flex items-center flex-row-reverse md:flex-row" style={{ gap: '4px' }}>
@@ -51,4 +51,4 @@ const AchivementSection = () => {
   );
 };
 
-export default AchivementSection;
+export default AchievementSection;

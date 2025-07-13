@@ -11,7 +11,7 @@ const ProjectCard = ({ title, image, link }: { title: string; image: string; lin
         </Link>
       </div>
       <div className="mt-3">
-        <h4 className="text-md md:text-xl text-white[100] font-bold mb-2">{title}</h4>
+        <h4 className="text-md md:text-xl text-white font-bold mb-2">{title}</h4>
         <a href={link} className="flex items-center gap-2 text-primary text-xs">
           See Detail
           <Image src="/assets/icons/arrow-top-right.svg" height={12} width={12} alt="arrow" className="w-3" />

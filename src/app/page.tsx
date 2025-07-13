@@ -1,4 +1,4 @@
-import AchivementSection from '@/components/sections/AchivementSection';
+import AchievementSection from '@/components/sections/AchievementSection';
 import ContactSection from '@/components/sections/ContactSection';
 import ExperienceSection from '@/components/sections/ExperienceSection';
 import HeroSection from '@/components/sections/HeroSection';
@@ -20,7 +20,7 @@ export default function Home() {
       <TechStackSection />
       <ExperienceSection />
       <ProjectSection />
-      <AchivementSection />
+      <AchievementSection />
       <ContactSection />
     </main>
   );
