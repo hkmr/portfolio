@@ -99,7 +99,7 @@ const Footer = () => {
         <p className="text-gray">
           Design and develop by <span className="text-primary font-bold">Harsh</span>
         </p>
-        <p className="text-gray">Copyright ©2024</p>
+        <p className="text-gray">Copyright ©2025</p>
       </div>
     </footer>
   );

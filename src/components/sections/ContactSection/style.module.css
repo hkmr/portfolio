@@ -3,6 +3,13 @@
   padding-block: 60px;
 }
 
+.cta_btn {
+  color: #dcdcdc;
+  padding-inline: 28px;
+  padding-block: 18px;
+  border-radius: 8px;
+}
+
 @media screen and (max-width: 480px) {
   .section_container {
     padding-block: 30px;
